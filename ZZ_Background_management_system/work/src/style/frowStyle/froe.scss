@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.Frow {
+    width: 100%;
+    display: flex;
+    // flex-direction: column;
+}
+
+.Srow {
+    display: flex;
+}
+
+.money {
+    display: flex;
+    span {
+        display: inline-block;
+        width: 70px;
+    }
+    .input {
+        width: 70px;
+        background: #fff !important;
+    }
+}
